@@ -192,7 +192,7 @@ type LogCallback = (
 /**
  * Manages all dependencies for an app acting as a bridge between app state and Dependencies
  * Responsible for registering dependencies and dispatching events to them
- * It is also responsible for orchestrating dependencies based on the follwing:
+ * It is also responsible for orchestrating dependencies based on the following:
  * - Cancelling dependencies
  * - Ensuring individual dependencies respect `trigger_mode`
  * - Managing then, success and failure events
